@@ -1,6 +1,7 @@
 
 public static void main (String [] args ) {
 factorial(5);
+factorial(2);
 }
 public int factorial (double numero) {
   if (numero==0)
