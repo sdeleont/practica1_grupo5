@@ -1,0 +1,41 @@
+public class Division {
+ 
+    int num1;
+    int num2;
+ 
+    public Division(int num1, int num2) {
+        this.num1 = num1;
+        this.num2 = num2;
+    }
+ 
+    public int valor(){
+		try{
+			return num1/num2;
+			system.println.out("Resultado es:" +num1/num2);
+		}
+		catch{
+			return 0;
+			system.println.out("Error interno");
+		}
+    }
+ 
+ 
+}
+
+
+public class Multiplicacion {
+ 
+    int num1;
+    int num2;
+ 
+    public Multiplicacion(int num1, int num2) {
+        this.num1 = num1;
+        this.num2 = num2;
+    }
+ 
+    public int valor(){
+        return num1*num2;
+    }
+ 
+ 
+}
