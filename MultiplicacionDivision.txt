@@ -10,6 +10,7 @@ public class Division {
  
     public int valor(){
 		try{
+			System.out.println("Se va retornar la división");
 			return num1/num2;
 			system.println.out("Resultado es:" +num1/num2);
 		}
@@ -34,6 +35,7 @@ public class Multiplicacion {
     }
  
     public int valor(){
+	System.out.println("Se va retornar la multiplicacion");
         return num1*num2;
     }
  
