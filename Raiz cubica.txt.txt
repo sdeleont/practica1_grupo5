@@ -1,0 +1,6 @@
+
+public void Raiz_cubica(int numero){
+	int n;
+	n = (int) Math.pow(numero, 1/3);
+	return n;
+}

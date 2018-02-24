@@ -1,0 +1,5 @@
+public void potencia_Cubo(int numero){
+	int n;
+	n = (int) Math.pow(numero, 3);
+	return n;
+}
